@@ -1,0 +1,25 @@
+
+1-Creamos la carpeta que usaremos como directorio
+
+2-Configuramos Git definiendo el nombre del usuario, el correo
+Electrónico y activar el coloreado de la salida:
+	git config-- global user.name "alfredo"
+	git config-- global user.mail "alfred.salced@gmail.com"
+	git config-- global color.ui auto
+
+3-iniciamos con git init estando posicionamos en la carpeta:
+	git init
+
+4-Comprobamos el estado del repositorio pro si habri algun fallo:
+	git status
+
+5-Añadimos el archivo que queramos subir a la carpeta(o si ya estaba lo modificamos si queremos)
+
+6-Añadimos con git add los archivos del repositorio que vayamos a hacer commit
+	git add Examen
+
+7-Hacemos commit y añadimos un mensaje de que realizamos en el commit
+	git commit -m "Añadido el examen"
+
+8- Hacemos push para que se suba el commit
+	git push
